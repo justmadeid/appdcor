@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_text_food_customername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"/>
+    <EditText
+        android:id="@+id/edit_text_food_telp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telp"/>
+    <EditText
+        android:id="@+id/edit_text_food_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+    <EditText
+        android:id="@+id/edit_text_food_ktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ktp"/>
+    <EditText
+        android:id="@+id/edit_text_food_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"/>
+
+    <EditText
+        android:id="@+id/edit_text_food_paket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paket"/>
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/edit_text_food_paket"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" >-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioMale"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/radio_male"-->
+            <!--android:checked="true" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/radioFemale"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/radio_female" />-->
+
+    <!--</RadioGroup>-->
+
+</LinearLayout>

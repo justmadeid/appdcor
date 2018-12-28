@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="id.co.project.android.decoration.Profil">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar" />
+        <include
+            layout="@layout/fragment_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <ImageButton
+
+                android:src="@drawable/fb"
+                android:id="@+id/fb"
+                android:text="fb"
+                android:background="@color/cardview_light_background"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <ImageButton
+                android:layout_marginLeft="30dp"
+                android:text="ig"
+                android:background="@color/cardview_light_background"
+                android:src="@drawable/ig"
+                android:id="@+id/ig"
+                android:layout_toRightOf="@+id/fb"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
